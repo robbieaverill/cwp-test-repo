@@ -3,6 +3,6 @@ Name: cwptheme
 ---
 SilverStripe\View\SSViewer:
   themes:
-    - '$public'
+    # - '$public'
     - 'starter'
     - '$default'
