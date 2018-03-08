@@ -1,0 +1,31 @@
+{
+    "name": "cwp/cwp-recipe-search",
+    "type": "silverstripe-recipe",
+    "description": "CWP search requirements recipe",
+    "homepage": "https://www.cwp.govt.nz",
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/recipe-plugin": "^1",
+        "cwp/cwp-recipe-cms": "2.0.0-rc1",
+        "cwp/cwp-search": "1.0.0-rc1",
+        "silverstripe/fulltextsearch": "3.0.0-rc1",
+        "symbiote/silverstripe-queuedjobs": "4.0.5@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "suggest": {
+        "silverstripe/textextraction": "Text Extraction API for SilverStripe CMS (mostly used with 'fulltextsearch' module)"
+    },
+    "extra": {
+        "project-files": [],
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

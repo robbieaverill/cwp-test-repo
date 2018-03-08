@@ -1,0 +1,142 @@
+.uf-field-editor {
+  padding-bottom: 0;
+
+  // Row styles
+  .grid-field__table {
+    // Standard rows
+    .ss-gridfield-item {
+      height: 46px;
+
+      &,
+      &:hover {
+        background: $white;
+      }
+
+      td {
+        border-right-width: 0;
+        vertical-align: middle;
+        padding-top: 6px;
+        padding-bottom: 6px;
+
+        &:last-child {
+          border-right-width: 1px;
+        }
+      }
+
+      .handle {
+        min-height: 46px;
+      }
+
+      &.flash-background {
+        animation: flash-background 2s linear;
+      }
+
+      &.ui-sortable-placeholder {
+        height: 50px;
+      }
+
+      .form-group {
+        padding: 0;
+        margin-bottom: 2px;
+        color: $gray-700;
+
+        &:after {
+          border-bottom: 0;
+        }
+
+        .form__field-label {
+          flex: auto;
+          max-width: 100%;
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    .ss-gridfield-item.infieldgroup {
+      &,
+      &:hover {
+        background: $white;
+      }
+
+      .col-reorder,
+      .handle {
+        background: $gray-200;
+      }
+    }
+
+    .ss-gridfield-item[data-class="SilverStripe\\UserForms\\Model\\EditableFormField\\EditableFormStep"] {
+      &,
+      &:hover {
+        background: $gray-600;
+        color: $white;
+      }
+
+      label {
+        font-weight: bold;
+        color: $white;
+        font-size: 15px;
+        padding-bottom: 0;
+      }
+
+      + .ss-gridfield-item[data-class="SilverStripe\\UserForms\\Model\\EditableFormField\\EditableFieldGroup"] td {
+        border-top: 3px solid $gray-200;
+      }
+
+      .grid-field__icon-action {
+        &:before {
+          color: $white;
+        }
+
+        &:hover {
+          &:before {
+            color: $gray-600;
+          }
+        }
+      }
+    }
+
+    .ss-gridfield-item[data-class="SilverStripe\\UserForms\\Model\\EditableFormField\\EditableFieldGroup"] {
+      td {
+        border-top: 3px solid $gray-200;
+      }
+
+      .form__field-label {
+        font-weight: bold;
+        padding-bottom: 0;
+        color: $gray-700;
+      }
+    }
+
+    .ss-gridfield-item[data-class="SilverStripe\\UserForms\\Model\\EditableFormField\\EditableFieldGroupEnd"] {
+      td {
+        border-bottom: 3px solid $gray-200;
+      }
+
+      + .ss-gridfield-item[data-class="SilverStripe\\UserForms\\Model\\EditableFormField\\EditableFieldGroupEnd"] {
+        border-top: 0;
+      }
+
+      .col-buttons .action {
+        display: none;
+      }
+    }
+  }
+
+  .sticky-buttons {
+    position: fixed;
+    top: 73px;
+    z-index: 2;
+    background: $body-bg;
+    border-bottom: 1px solid $border-color-light;
+    padding: 12px;
+    margin-left: -12px;
+
+    & button.action {
+      margin-bottom: 0;
+    }
+
+    ~ .ss-gridfield-table {
+      margin-top: 73px;
+    }
+  }
+}

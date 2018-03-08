@@ -1,0 +1,46 @@
+{
+    "name": "silverstripe/tagfield",
+    "description": "Tag field for Silverstripe",
+    "license": "BSD-3-Clause",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "tag",
+        "field"
+    ],
+    "authors": [
+        {
+            "name": "Christopher Pitt",
+            "email": "chris@silverstripe.com",
+            "homepage": "http://github.com/assertchris"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/silverstripe/silverstripe-tagfield/issues"
+    },
+    "require": {
+        "silverstripe/framework": "^4.0",
+        "silverstripe/versioned": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SilverStripe\\TagField\\": "src/",
+            "SilverStripe\\TagField\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "expose": [
+            "css",
+            "js"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

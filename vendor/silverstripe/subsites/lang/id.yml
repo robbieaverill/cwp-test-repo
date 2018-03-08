@@ -1,0 +1,19 @@
+id:
+  SilverStripe\Subsites\Admin\SubsiteAdmin:
+    MENUTITLE: Subsitus
+  SilverStripe\Subsites\Extensions\FileSubsites:
+    SubsiteFieldLabel: Subsitus
+  SilverStripe\Subsites\Extensions\GroupSubsites:
+    SECURITYTABTITLE: Subsitus
+  SilverStripe\Subsites\Model\Subsite:
+    CustomMetaDescription: Deskripsi
+    CustomMetaKeywords: 'Kata kunci'
+    CustomMetaTitle: Judul
+    PLURALNAME: Subsitus
+    SINGULARNAME: Subsitus
+  SilverStripe\Subsites\Pages\SubsitesVirtualPage:
+    SubsiteField: Subsitus
+  SilverStripe\Subsites\Reports\SubsiteReportWrapper:
+    ReportDropdown: Situs
+  Subsites:
+    LanguageFieldLabel: Bahasa

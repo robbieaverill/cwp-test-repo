@@ -1,0 +1,1 @@
+webpackJsonp([4],{965:function(e,a,r){"use strict";var n=r(807),t=function(e){return e&&e.__esModule?e:{default:e}}(n);if("ie"===t.default.name&&parseInt(t.default.version,10)<=10){var s=document.getElementById("browser-warning-wrapper");s&&(s.className=s.className+" browser-warning-wrapper--incompatible")}}},[965]);

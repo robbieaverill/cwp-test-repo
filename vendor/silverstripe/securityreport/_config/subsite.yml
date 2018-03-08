@@ -1,0 +1,12 @@
+---
+Name: subsitesecurityreportconfig
+Only:
+  moduleexists: silverstripe/subsites
+---
+SilverStripe\SecurityReport\UserSecurityReport:
+  extensions:
+    - SilverStripe\SecurityReport\Subsites\SubsiteSecurityReport
+
+SilverStripe\Security\Member:
+  extensions:
+    - SilverStripe\SecurityReport\Subsites\SubsiteMemberReportExtension

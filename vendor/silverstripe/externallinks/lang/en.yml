@@ -1,0 +1,17 @@
+en:
+  SilverStripe\ExternalLinks\Model\BrokenExternalLink:
+    NOTAVAILABLE: 'Server Not Available'
+    PLURALNAME: 'Broken External Links'
+    SINGULARNAME: 'Broken External Link'
+    UNKNOWNRESPONSE: 'Unknown Response Code'
+  SilverStripe\ExternalLinks\Model\BrokenExternalPageTrack:
+    PLURALNAME: 'Broken External Page Tracks'
+    SINGULARNAME: 'Broken External Page Track'
+  SilverStripe\ExternalLinks\Model\BrokenExternalPageTrackStatus:
+    PLURALNAME: 'Broken External Page Track Statuss'
+    SINGULARNAME: 'Broken External Page Track Status'
+  SilverStripe\ExternalLinks\Jobs\CheckExternalLinksJob:
+    TITLE: 'Checking for external broken links'
+  SilverStripe\ExternalLinks\Reports\BrokenExternalLinksReport:
+    EXTERNALBROKENLINKS: 'External broken links report'
+    RUNREPORT: 'Create new report'

@@ -1,0 +1,65 @@
+fa_IR:
+  CustomRule:
+    DELETE: حذف
+  FieldEditor:
+    ADD: افزودن
+    SELECTAFIELD: 'انتخاب یک فیلد'
+  SilverStripe\CMS\Model\SiteTree:
+    PLURALNAME: صفحات
+    SINGULARNAME: صفحه
+  SilverStripe\Forms\GridField\GridField:
+    Filter: پالایش
+    ResetFilter: 'از نو'
+  SilverStripe\UserForms\Extension\UserFormFieldEditorExtension:
+    ADD_FIELD: 'افزودن فیلد'
+    ADD_FIELD_GROUP: 'افزودن فیلد گروهی'
+    FORMFIELDS: 'فیلدهای فرم'
+  SilverStripe\UserForms\Model\EditableFormField:
+    ADD: افزودن
+    DEFAULTTOTODAY: 'تاریخ پیش فرض به امروز؟'
+    DELETE: حذف
+    GROUP: گروه
+    MAXVALUE: 'بیشترین مقدار'
+    MINVALUE: 'کمترین مقدار'
+    REQUIRED: 'آیا این فیلد الزامی است؟'
+    RIGHTTITLE: 'عنوان سمت راست'
+    TITLE: عنوان
+    'YES': بله
+  SilverStripe\UserForms\Model\EditableFormField\EditableDateField:
+    PLURALNAME: 'فیلدهای تاریخ'
+    SINGULARNAME: 'فیلد تاریخ'
+  SilverStripe\UserForms\Model\EditableFormField\EditableEmailField:
+    PLURALNAME: 'فیلدهای ایمیل'
+    SINGULARNAME: 'فیلد ایمیل'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFormStep:
+    TITLE_FIRST: 'صفحه نخست'
+  SilverStripe\UserForms\Model\EditableFormField\EditableLiteralField:
+    PLURALNAME: 'بلوک های HTML'
+    SINGULARNAME: 'بلوک HTML'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMultipleOptionField:
+    DEFAULT: 'انتخاب به عنوان پیش فرض؟'
+  SilverStripe\UserForms\Model\EditableFormField\EditableNumericField:
+    PLURALNAME: 'فیلد عددی'
+    RANGE_TO: به
+    SINGULARNAME: 'فیلد عددی'
+  SilverStripe\UserForms\Model\EditableFormField\EditableTextField:
+    NUMBERROWS: 'تعداد سطر ها'
+    RANGE_TO: به
+  SilverStripe\UserForms\Model\Submission\SubmittedFileField:
+    DOWNLOADFILE: 'دانلود فایل'
+  SilverStripe\UserForms\Model\UserDefinedForm:
+    CLEARBUTTON: پاک‌کردن
+    DISABLECSRFSECURITYTOKEN: 'غیر فعال کردن CSRF'
+    EMAILADDRESS: 'ایمیل'
+    EMAILFROM: از
+    EMAILSUBJECT: 'موضوع پست الکترونیک'
+    EMAILTEMPLATE: 'قالب پست الکترونیک'
+    FIELDS: فیلدها
+    FORM: 'فرم'
+    PLURALNAME: 'صفحه اصلی'
+    RECIPIENTS: 'دریافت کنندگان'
+    SENDEMAILTO: 'ارسال ایمیل به'
+    SHOWCLEARFORM: 'نمایش دکمه خالی کردن فرم'
+    SUBMITBUTTON: 'ثبت کردن'
+    TEXTONCLEAR: 'متن روی دکمه خالی کردن فرم:'
+    TEXTONSUBMIT: 'متن روی دکمه ثبت کردن:'

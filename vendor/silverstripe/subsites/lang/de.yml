@@ -1,0 +1,79 @@
+de:
+  ASSETADMIN:
+    SUBSITENOTICE: 'Auf Ordner und Dateien der Hauptseite kann von allen Subsites zugegriffen werden.'
+  DomainNameField:
+    INVALID_DOMAIN: 'Ungültige Domain'
+  GridFieldAddFromTemplateButton:
+    AddFromTemplate: 'Neu hinzufügen von Template'
+  LeftAndMain_Menu:
+    Hello: Hallo
+    LOGOUT: Abmelden
+  SilverStripe\CMS\Model\VirtualPage:
+    EDITCONTENT: 'Klicken Sie hier, um den Inhalt zu bearbeiten'
+  SilverStripe\Subsites\Admin\SubsiteAdmin:
+    MENUTITLE: Subsites
+  SilverStripe\Subsites\Controller\SubsiteXHRController:
+    MENUTITLE: SubsiteXHRController
+  SilverStripe\Subsites\Extensions\FileSubsites:
+    AllSitesDropdownOpt: 'Alle Subseiten'
+    SubsiteFieldLabel: Subseite
+  SilverStripe\Subsites\Extensions\GroupSubsites:
+    ACCESSALL: 'Alle Subsites'
+    ACCESSONLY: 'Nur diese Subsites'
+    ACCESSRADIOTITLE: 'Dieser Gruppe Zugriff geben auf'
+    GlobalGroup: 'globale Gruppe'
+    MANAGE_SUBSITES: 'Subseiten für jede Gruppe bearbeiten'
+    MANAGE_SUBSITES_HELP: 'Möglichkeit, die Berechtigungen einer Gruppe auf bestimmte Subsites zu beschränken.'
+    SECURITYTABTITLE: Subsites
+  SilverStripe\Subsites\Extensions\LeftAndMainSubsites:
+    Saved: Gespeichert.
+  SilverStripe\Subsites\Extensions\SiteTreeSubsites:
+    CopyAction: Kopieren
+    CopyToSubsite: 'Seite auf Subseite Kopieren'
+  SilverStripe\Subsites\Model\Subsite:
+    COPYSTRUCTURE: 'Struktur kopieren von:'
+    CopyMessage: 'Kopie von {title} erstellt'
+    CustomExtraMeta: 'Benutzerdefinierte Meta-Tags'
+    CustomMetaDescription: Beschreibung
+    CustomMetaKeywords: Schlüsselwörter
+    CustomMetaTitle: Titel
+    DOMAINSAVEFIRST: 'Domains können erst nach dem ersten Speichern hinzugefügt werden'
+    DomainsHeadline: 'Domains für diese Subsite'
+    DomainsListTitle: Domains
+    IsPublicHeaderField: 'Aktive Subsite'
+    NOTEMPLATE: 'Kein Template'
+    PLURALNAME: Subsites
+    PageTypeBlacklistField: 'Seitentyp verbieten?'
+    SINGULARNAME: Subsite
+    SiteConfigSubtitle: 'Ihr Websiteslogan'
+    SiteConfigTitle: 'Name Ihrer Website'
+    TabTitleConfig: Einstellungen
+    ValidateTitle: 'Bitte geben Sie einen Titel an'
+  SilverStripe\Subsites\Model\SubsiteDomain:
+    DOMAIN: Domain
+    DOMAIN_DESCRIPTION: 'Hostname dieser Subsite (ohne Protokol). Joker (*) ist erlaubt.'
+    IS_PRIMARY: 'Ist Hauptdomain?'
+    PLURALNAME: 'Subsite Domains'
+    PROTOCOL_AUTOMATIC: Automatisch
+    PROTOCOL_HTTP: 'http://'
+    PROTOCOL_HTTPS: 'https://'
+    Protocol: Protokoll
+    SINGULARNAME: 'Subsite Domain'
+  SilverStripe\Subsites\Pages\SubsitesVirtualPage:
+    DESCRIPTION: 'Zeigt den Inhalt einer anderen Seite von einer anderen Subsite an'
+    PLURALNAME: 'Basis Seiten'
+    SINGULARNAME: 'Subsites Virtuelle Seite'
+    SubsiteField: Subsite
+  SilverStripe\Subsites\Reports\SubsiteReportWrapper:
+    ReportDropdown: Seiten
+  Subsites:
+    DefaultSiteFieldLabel: 'Standard Seite'
+    DomainFieldLabel: Domäne
+    IsPublicFieldLabel: 'Öffentlich zugänglich'
+    LanguageFieldLabel: Sprache
+    MainSiteTitle: Hauptsite
+    PageTypeBlacklistFieldLabel: 'Ausgeschlossene Seitentypen'
+    PrimaryDomainFieldLabel: 'Primäre Domain'
+    RedirectURLFieldLabel: Weierleitungs-URL
+    ThemeFieldLabel: Theme
+    TitleFieldLabel: 'Name der Subsite'

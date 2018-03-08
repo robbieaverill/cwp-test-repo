@@ -1,0 +1,10 @@
+eo:
+  SilverStripe\Taxonomy\TaxonomyAdmin:
+    MENUTITLE: Taksonomioj
+  SilverStripe\Taxonomy\TaxonomyTerm:
+    Category: 'Taksonomiaj terminoj'
+    CreatePermissionLabel: 'Krei taksonomian terminon'
+    DeletePermissionLabel: 'Forigi taksonomian terminon kaj ĉiujn ingitajn terminojn'
+    EditPermissionLabel: 'Redakti taksonomian terminon'
+    PLURALNAME: 'Taksonomiaj terminoj'
+    SINGULARNAME: 'Taksonomia termino'

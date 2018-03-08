@@ -1,0 +1,33 @@
+{
+    "name": "silverstripe/recipe-cms",
+    "type": "silverstripe-recipe",
+    "description": "SilverStripe recipe for fully featured page and asset content editing",
+    "homepage": "http://silverstripe.org",
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/recipe-plugin": "^1",
+        "silverstripe/recipe-core": "1.1.0-rc2",
+        "silverstripe/admin": "1.1.0-rc2",
+        "silverstripe/asset-admin": "1.1.0-rc2",
+        "silverstripe/campaign-admin": "1.1.0-rc2",
+        "silverstripe/cms": "4.1.0-rc2",
+        "silverstripe/errorpage": "1.1.0-rc2",
+        "silverstripe/graphql": "1.1.0-rc2",
+        "silverstripe/reports": "4.1.0-rc2",
+        "silverstripe/siteconfig": "4.1.0-rc2",
+        "silverstripe/versioned": "1.1.0-rc2"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "^5.7"
+    },
+    "extra": {
+        "project-files": [
+            "mysite/code/*"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

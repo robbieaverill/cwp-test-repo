@@ -1,0 +1,33 @@
+en_GB:
+  SilverStripe\UserForms\Model\EditableFormField\EditableEmailField:
+    PLURALNAME: 'Email Fields'
+    SINGULARNAME: 'Email Field'
+  SilverStripe\UserForms\Model\EditableFormField\EditableLiteralField:
+    HIDEFROMREPORT: 'Hide from reports?'
+    PLURALNAME: 'HTML Blocks'
+    SINGULARNAME: 'HTML Block'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMultipleOptionField:
+    PLURALNAME: 'Editable Multiple Option Fields'
+    SINGULARNAME: 'Editable Multiple Option Field'
+  SilverStripe\UserForms\Model\Recipient\EmailRecipient:
+    PLURALNAME: 'User Defined Form Email Recipients'
+    SINGULARNAME: 'User Defined Form Email Recipient'
+  SilverStripe\UserForms\Model\UserDefinedForm:
+    EMAILADDRESS: Email
+    EMAILBODY: Body
+    EMAILFROM: From
+    EMAILSUBJECT: 'Email Subject'
+    FORM: Form
+    FROMADDRESS: 'Send Email From'
+    HIDEFORMDATA: 'Hide Form Data from Email'
+    NORECIPIENTS: 'Warning: You have not configured any recipients. Form submissions may be missed.'
+    ONCOMPLETELABEL: 'Show on completion'
+    ORSELECTAFIELDTOUSEASFROM: '.. or select a field to use as reply to address'
+    ORSELECTAFIELDTOUSEASTO: '.. or select a field to use as the to address'
+    SAVESUBMISSIONS: 'Disable Saving Submissions to Server'
+    SENDEMAILTO: 'Send Email To'
+    SENDPLAIN: 'Send Email as Plain Text (HTML will be stripped)'
+    SHOWCLEARFORM: 'Show Clear Form Button'
+    SINGULARNAME: 'User Defined Form'
+    SUBMITBUTTON: Submit
+    TEXTONSUBMIT: 'Text on submit button:'
